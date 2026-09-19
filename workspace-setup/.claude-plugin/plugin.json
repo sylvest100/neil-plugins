@@ -1,0 +1,11 @@
+{
+  "name": "workspace-setup",
+  "displayName": "Workspace Setup",
+  "version": "1.0.0",
+  "description": "Prepares a folder for Claude Code work. Inspects what is there, sizes the scaffold to the job, interviews you one question at a time, then writes only what was agreed.",
+  "author": {
+    "name": "Neil Smith"
+  },
+  "license": "MIT",
+  "keywords": ["workspace", "scaffold", "claude-md", "project-setup"]
+}

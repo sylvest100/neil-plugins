@@ -1,0 +1,13 @@
+{
+  "name": "neil-plugins",
+  "owner": {
+    "name": "Neil Smith"
+  },
+  "plugins": [
+    {
+      "name": "workspace-setup",
+      "source": "./workspace-setup",
+      "description": "Turn any folder into a properly prepared Claude Code workspace, with the scaffold sized to the job."
+    }
+  ]
+}

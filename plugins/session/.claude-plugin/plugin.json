@@ -1,0 +1,17 @@
+{
+  "name": "session",
+  "displayName": "Session",
+  "version": "1.0.0",
+  "description": "Carry work from one session to the next: any machine, any surface, wherever the session has a folder. Handoff writes the state down. Pickup reads it back and checks it against the folder. A start-of-session hook tells Claude when a note is waiting.",
+  "author": {
+    "name": "Neil Smith"
+  },
+  "license": "MIT",
+  "keywords": [
+    "handoff",
+    "pickup",
+    "session",
+    "continuity",
+    "multi-machine"
+  ]
+}

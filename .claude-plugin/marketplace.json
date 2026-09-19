@@ -9,6 +9,12 @@
       "source": "./plugins/workspace-setup",
       "description": "Turn any folder into a properly prepared Claude Code workspace, with the scaffold sized to the job.",
       "version": "1.0.0"
+    },
+    {
+      "name": "session",
+      "source": "./plugins/session",
+      "description": "Carry work from one session to the next, on any machine: handoff writes the state down, pickup reads it back and checks it against the folder.",
+      "version": "1.0.0"
     }
   ]
 }

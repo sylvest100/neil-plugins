@@ -1,0 +1,18 @@
+{
+  "description": "At the start of a session, tell Claude when the workspace holds a handoff note, so that it can offer /session:pickup.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/session-start.sh"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

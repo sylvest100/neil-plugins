@@ -6,8 +6,9 @@
   "plugins": [
     {
       "name": "workspace-setup",
-      "source": "./workspace-setup",
-      "description": "Turn any folder into a properly prepared Claude Code workspace, with the scaffold sized to the job."
+      "source": "./plugins/workspace-setup",
+      "description": "Turn any folder into a properly prepared Claude Code workspace, with the scaffold sized to the job.",
+      "version": "1.0.0"
     }
   ]
 }
